@@ -142,8 +142,8 @@ def get_polygon_checkpoints(points_file_path, is_debug=False, angle=10, angle_ra
 
 
 if __name__ == '__main__':
-    # get_polygon_checkpoints("OpenSpaceDatabase/pointData0.csv", True)
-    get_polygon_checkpoints("RoomsDatabase/dani_office/pointData0.csv", True)
+    get_polygon_checkpoints("indoor_example.csv", True)
+    get_polygon_checkpoints("outdoor_example.csv", True)
 
 # room parameters
 # angle = 20, angle_range = 5
